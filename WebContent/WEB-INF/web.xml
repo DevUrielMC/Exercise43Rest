@@ -15,7 +15,7 @@
   <!-- Instalacion del Framework Jersey -->
   <servlet>
     <servlet-name>jersey-servlet</servlet-name>
-    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
       <param-name>com.sun.jersey.config.property.packages</param-name>
       <param-value>com.netmind.rest</param-value>
@@ -26,4 +26,5 @@
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
+  
 </web-app>
