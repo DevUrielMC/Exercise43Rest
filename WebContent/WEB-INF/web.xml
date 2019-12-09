@@ -27,6 +27,6 @@
   <!-- Asignar un URL mapping -->
   <servlet-mapping>
         <servlet-name>jersey-servlet</servlet-name>
-        <url-pattern>/rest/*</url-pattern>
+        <url-pattern>/*</url-pattern>			<!-- Con el /* se hizo totalmente de servicios -->
     </servlet-mapping>
 </web-app>
